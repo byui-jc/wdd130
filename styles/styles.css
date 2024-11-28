@@ -1,21 +1,30 @@
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 nav {
     background-color: black;
     padding: 10px;
+    display: flex; 
+    justify-content: space-around;
 }
 
 nav a {
     color: whitesmoke;
-    display: block;
+    text-decoration: none; 
     padding: 10px;
+    display: inline-block; 
 }
 
 h1 {
-    color: black; 
+    color: white; 
 }
 
-
 main img { 
-    width: 150px;
+    width: 100%; 
+    max-width: 150px;
     height: auto;
     border: 1px solid black; 
     padding: 2px;
@@ -23,11 +32,12 @@ main img {
 }
 
 p {
-    padding: 0; 
+    padding: 1em 0; 
 }
 
 aside {
-    width: 20em;
+    width: 100%;
+    max-width: 300px; 
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1em;
@@ -37,7 +47,8 @@ aside {
 }
 
 aside img {
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     height: auto;
 }
 
@@ -45,4 +56,5 @@ footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+    padding: 10px 0;
 }
