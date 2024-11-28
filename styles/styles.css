@@ -1,3 +1,8 @@
+main {
+    max-width: 1200px;
+    padding: 2px;
+}
+
 nav {
     background-color: black;
     padding: 10px;
@@ -19,7 +24,6 @@ main img {
     width: 150px;
     height: auto;
     border: 1px solid black; 
-    padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
