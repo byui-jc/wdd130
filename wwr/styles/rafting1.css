@@ -1,0 +1,124 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2d492f;
+    color: #fff;
+  }
+  
+  header .logo img {
+    width: 50px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    background: url('rafting.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 80px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-family: 'Cursive', serif;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    background-color: #c9a26c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .feature {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .feature img {
+    width: 100%;
+    border: 2px solid #c9a26c;
+  }
+  
+  .feature h3 {
+    margin-top: 10px;
+  }
+  
+  .highlight {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    background-color: #d9c3a1;
+  }
+  
+  .highlight img {
+    width: 50%;
+    object-fit: cover;
+  }
+  
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .text-box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .text-box button {
+    padding: 10px 20px;
+    background-color: #4b6c44;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2d492f;
+    color: #fff;
+  }
+  
+  footer nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  footer .social-media img {
+    width: 20px;
+    margin-left: 10px;
+  }
+  
