@@ -188,8 +188,8 @@ footer img {
   font-weight: bold;
 }
 
-.highlight .text-box button:hover {
-  background-color: var(--button-bg);
+.highlight .text-box button:focus {
+  outline: 2px solid var(--accent1-color);
 }
 
 /* About Us Section */
